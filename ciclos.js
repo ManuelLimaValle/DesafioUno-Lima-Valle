@@ -1,7 +1,7 @@
 let seguir = true;
 
 while(seguir){
-    let ingresar = parseInt(prompt("CALCULADORA: 1:-------------- sumar 2:-------------- resta 3:-------------- multiplicar 4:-------------- dividir"));
+    let ingresar = parseInt(prompt("CALCULADORA:\n1:-------------- sumar\n2:-------------- resta\n3:-------------- multiplicar\n4:-------------- dividir"));
     let numero1,numero2,resultado;
     switch (ingresar) {
         case 1:
